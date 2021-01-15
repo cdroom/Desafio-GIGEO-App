@@ -1,23 +1,41 @@
 .videos_box {
     padding-bottom: 1rem;
-
     &-img {
         padding-bottom: 1rem;
     }
-
-
-
+    &-hit{
+        color: $color_gray;
+    }
 }
 
-.perfil-wrapper {
-
-    display        : flex;
-    height         : 100%;
-    align-items    : center;
-    justify-content: end;
-
-    &-button {}
 
 
 
+
+
+
+//perfil
+.perfil{
+    padding-bottom: 2rem;
+    &-name{
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+    &-avatar{
+        padding-right: 2rem;
+    }
+    &-wrapper {
+        display        : flex;
+    }
+
+    &-button {
+        align-self: center !important;
+        margin-left: auto !important;
+    }
+    &-hit{
+        color: $color_gray;
+    }
+   
 }
+

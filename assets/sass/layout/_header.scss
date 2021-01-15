@@ -1,6 +1,5 @@
 
 .banner{
-
     background-image: url("../images/image-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,14 +9,27 @@
 }
 
 .header {
-    border-bottom: 1px solid gray;
-}
-.perfil{
-    padding-bottom: 2rem;
+      border-bottom: 1px solid $color_linea;
 }
 
-/*
-.perfil-button {
-    text-align: right;
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: 500;
 }
-*/
+
+
+.navbar{
+    background-color:$color_white !important;
+    &-brand{
+        sup {
+            top: -2.5em;
+            font-size: 0.8rem;
+        }
+    }
+} 
+
+//fontawesome
+i {
+    font-size: 1.7em;
+}
+

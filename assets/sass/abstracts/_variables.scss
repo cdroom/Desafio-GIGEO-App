@@ -1,54 +1,23 @@
 
 
 //colors
-$color_white     : #FFF;
-$color_platinum  : #e6e7e7;
-$color_light_gray: #d1d1d1;
-
-$color_fuzzy_wuzzy : #e56353;
-$color_ruddy_pink  : #d76c69;
-$color_spanish_pink: #ecbcba;
-
-$color_eerie_black : #121619;
-$color_raisin_black: #222323;
-$color_nickel      : #6c6e70;
+$color_white: #FFF;
+$color_swamp: #001614;
+$color_gray: #888;
+$color_silver: #CCC;
+$color_blue: #79DEE7;
+$color_persimmon: #FF565B;
+$color_linea:  #8080803d;
 
 
 // Typography
-$font_family-roboto: 'Roboto',sans-serif;
-$font-roboto-weight-regular: 400;
-$font-roboto-weight-light  : 300;
+$font_family-lato: 'Roboto', sans-serif;
+$font_family-lato-weight-regular: 300;
 
-$font_family-playfair: 'Playfair Display',sans-serif;
-$font-playfair-weight-regular: 400;
-$font-playfair-weight-italic : 900;
+
 
 
 // fonts sizes
-$fontSizes_xx-large: 70px;
-$fontSizes_x-large : 30px;
-$fontSizes_large   : 18px;
-$fontSizes_medium  : 16px;
-$fontSizes_small   : 12px;
-
-//default
-$font-family-default:  $font_family-roboto;
-$font-size-default  :  $fontSizes_small;
-$font-weight-default:  $font-roboto-weight-light;
-
-/*
-// colors setup
-$swamp: #001614;
-$gray: #888;
-$silver: #CCC;
-$white: #FFF;
-$sky-blue: #79DEE7;
-$persimmon: #FF565B;
-
-// fonts setup
-$lato: 'Lato', sans-serif;
-$lato-weight-regular: 400;
-
 $font-size-xxx-large: 40px;
 $font-size-xx-large: 30px;
 $font-size-x-large: 20px;
@@ -57,10 +26,20 @@ $font-size-medium: 16px;
 $font-size-small: 14px;
 $font-size-x-small: 12px;
 
-$primary-font: $lato;
+//default
+$font-family-default:  $font_family-lato;
+$font-size-default  :  $font-size-x-large;
+$font-weight-default:  $font_family-lato-weight-regular;
 
-// breakpoints
-$min-laptop: 768px;
-
-
-*/
+//breakpoint
+$breakpoints: (
+  
+    'sm' : (min-width: 576px),
+    'md' : (min-width: 768px),
+    'lg' : (min-width: 992px),
+    'xl' : (min-width: 1200px),
+    'm-sm' : (max-width: 576px),
+    'm-md' : (max-width: 768px),
+    'm-lg' : (max-width: 992px),
+    'm-xl' : (max-width: 1200px)
+    ) !default;

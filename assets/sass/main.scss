@@ -3,6 +3,7 @@
 
 //var
 @import 'abstracts/variables';
+@import 'abstracts/mixins';
 
 //base
 @import 'base/reset';
@@ -14,7 +15,7 @@
 @import 'layout/footer';
 // Components
 @import 'components/buttons';
-@import 'components/carrusel';
+@import 'components/images';
 
 
 
